@@ -30,18 +30,14 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     intro = true
     headline = "Introduction to modelplotr"
     description = ""
-    github = "https://github.com/XXX"
-    gitlab = "https://gitlab.com/XXX"
-    linkedin = "https://linkedin.com/in/XXX/"
-    gplus = "https://google.com/+XXX"
-    twitter = "https://twitter.com/XXX"
-    stackoverflow = "https://stackoverflow.com/users/XXX/YYY"
-    email = "XXX@example.com"
+    github = "https://github.com/jurrr/modelplotr"
+    linkedin = "https://www.linkedin.com/in/jnagelkerke/"
+    email = "jurriaan.nagelkerke@gmail.com"
     opengraph = true
-    shareTwitter = true
-    shareFacebook = true
-    shareGooglePlus = true
-    shareLinkedIn = false
+    shareTwitter = false
+    shareFacebook = false
+    shareGooglePlus = false
+    shareLinkedIn = true
     dateFormat = "Mon, Jan 2, 2006"
     highlightJsUrl = ""
     highlightJsLocalUrl = ""
@@ -57,12 +53,12 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 [[menu.main]]
     name = "Projects"
     url = "/project/"
-    weight = 2
+    weight = 3
 
 [[menu.main]]
     name = "Contact"
     url = "/page/contact/"
-    weight = 3
+    weight = 2
 
 [[menu.main]]
     name = "About"
