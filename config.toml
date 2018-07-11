@@ -7,7 +7,7 @@ disqusShortname = "XXX"
 googleAnalytics = "XXX"
 
 # ignore certain files as recommended
-# ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 [Privacy]
 
