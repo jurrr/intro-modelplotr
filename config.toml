@@ -6,9 +6,12 @@ copyright = "My Name"
 disqusShortname = "XXX"
 googleAnalytics = "XXX"
 
+<<<<<<< HEAD
 # ignore certain files as recommended
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
+=======
+>>>>>>> 45a1d979a9ec2aa8862872cf740c1cdda059d03d
 [Privacy]
 
 [Privacy.disqus]
