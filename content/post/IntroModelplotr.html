@@ -88,9 +88,9 @@ lrn = makeLearner(&quot;classif.multinom&quot;, predict.type = &quot;prob&quot;)
 mnl = train(lrn, task)
 ## # weights:  7 (6 variable)
 ## initial  value 1998.343322 
-## iter  10 value 681.376916
-## iter  20 value 646.215705
-## final  value 646.204061 
+## iter  10 value 628.032283
+## iter  20 value 600.600192
+## final  value 600.593013 
 ## converged
 lrn = makeLearner(&quot;classif.xgboost&quot;, predict.type = &quot;prob&quot;)
 xgb = train(lrn, task)
@@ -108,12 +108,12 @@ dataprep_modevalplots(datasets=list(&quot;train&quot;,&quot;test&quot;),
 ## [1] &quot;Data preparation step 1 succeeded! Dataframe &#39;eval_tot&#39; created.&quot;
 head(eval_tot)
 ##          modelname    dataset y_true prob_no prob_yes dcl_no dcl_yes
-## 382  random forest train data    yes   0.228    0.772     10       1
-## 1460 random forest train data     no   1.000    0.000      5      10
-## 713  random forest train data     no   0.594    0.406      9       2
-## 3920 random forest train data     no   0.990    0.010      7       4
-## 3357 random forest train data     no   1.000    0.000      5      10
-## 2739 random forest train data     no   1.000    0.000      4       7
+## 1896 random forest train data     no   1.000    0.000      4       9
+## 3438 random forest train data     no   0.750    0.250      9       2
+## 1766 random forest train data     no   1.000    0.000      1       7
+## 2819 random forest train data     no   0.994    0.006      7       4
+## 132  random forest train data     no   0.996    0.004      7       4
+## 1855 random forest train data     no   1.000    0.000      3       7
 input_modevalplots()
 ## [1] &quot;Data preparation step 2 succeeded! Dataframe &#39;eval_t_tot&#39; created.&quot;
 scope_modevalplots()
